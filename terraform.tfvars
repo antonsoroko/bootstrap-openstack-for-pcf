@@ -1,0 +1,12 @@
+#user_name = "" # Please use TF_VAR_user_name instead
+#pass = ""      # Please use TF_VAR_pass instead
+domain_name = "some.domain"
+auth_url = "https://openstack.test.com:5000/v3"
+tenant_name = "tenant_name"
+insecure = "false"
+region = "RegionOne"
+pcf_pub_key = "~/.ssh/id_rsa_pcf.pub"
+opsman_pub_key_name = "name of your existing key in openstack"
+image_id = "1adbf686-3463-4a14-a68d-dca7b996c328"
+ext_net_id = "d5a46201-4ea8-45c4-b634-07f589ad59fd"
+ext_net_name = "admin_floating_net"
